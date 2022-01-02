@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floyd Ding Resume</title>
+  </head>
+  <body class="font-mono text-xs">
+    <div class="flex">
+      <!-- left column -->
+      <div class="left-column basis-1/3 px-8 pt-24 text-white">
+        <!-- Profile picture -->
+        <div class="flex justify-center mb-2">
+          <img class="inline-block h-16 w-16 rounded-full object-cover" src="./assets/profile.jpeg"/>
+        </div>
+        <!-- Name -->
+        <div class="mb-4">
+          <h1 class="text-lg">Floyd (Hongyu) Ding</h1>
+        </div>
+        <!-- Title -->
+        <div class="mb-6">
+          <span class="font-light text-slate-300">FULLSTACK ENGINEER</span>
+        </div>
+        <!-- Details -->
+        <div class="mb-6">
+          <div class="text-base mb-2">Details</div>
+          <div>375 Clinton Street</div>
+          <div>Brooklyn, NY, 11231, USA</div>
+          <div>+1 (412) 708-4695</div>
+          <div>
+            <a target="_blank" class="underline" href="mailto: floydding@gmail.com">floydding@gmail.com</a>
+          </div>
+        </div>
+        <!-- Skills -->
+        <div class="mb-6">
+          <div class="text-base mb-2">Skills</div>
+          <div>AWS Services/AWS CDK</div>
+          <div>Typescript/Javascript</div>
+          <div>React/Vue</div>
+          <div>Serverless</div>
+          <div>API/System Design</div>
+          <div>CI/CD DevOps</div>
+          <div>Vite/ESBuild</div>
+          <div>Python</div>
+          <div>Java</div>
+          <div>English/Mandarin</div>
+        </div>
+        <!-- education -->
+        <div>
+          <div class="text-base mb-2">Education</div>
+          B.S. in Computer Science,
+          Carnegie Mellon University
+          <div class="text-slate-300">Aug 2014 - May 2017</div>
+        </div>
+      </div>
+      <!-- right column -->
+      <div class="basis-2/3 pl-12 pr-16 pt-24">
+        <!-- profile -->
+        <div class="mb-8">
+          <div class="text-base mb-1">Profile</div>
+          <p>
+            Fullstack engineer with focuses on frontend, serverless architecture and progressive tooling. 
+            Ability to lead team to design, implement and maintain a product through its full life cycle. 
+            Adept at working with product management, design and leadership to push a project going forward.
+          </p>
+        </div>
+        <!-- employment histry -->
+        <div class="mb-8">
+          <div class="text-base mb-1">Employment History</div>
+          <!-- AWS -->
+          <div class="mb-6">
+            <div class="text-sm">
+              FEE at AWS
+            </div>
+            <span class=" text-slate-500">Aug 2020 - Present</span>
+            <ul class="list-disc ml-4 mt-2">
+              <li>Launched external facing decision tree engine service to provide context specific architectural guidance/recommendations.</li>
+              <li>Launched micro-frontend widget that interacts with backend to provide guidance to users in AWS console.</li>
+              <li>Revamped micro-frontend widget leveraging Vite, CSS modules and PagedJS to improve loading speed, responsiveness, accessibility and align PDF generation to W3C printing standard.</li>
+              <li>Externalized the widget for usage outside of AWS console.</li>
+              <li>Increased unit test coverage and built integration tests and E2E canary tests leveraging AWS CloudWatch synthetics</li>
+              <li>Release internal Vite plugins to facilitate all internal developers to build micro-frontend widgets.</li>
+              <li>Worked with other platform teams to help review and released a frontend assets gradual rollout service.</li>
+            </ul>
+          </div>
+          <!-- Comixology -->
+          <div class="mb-6">
+            <div class="text-sm">
+              FEE at Comixology, an Amazon company
+            </div>
+            <span class=" text-slate-500">Nov 2019 - July 2020</span>
+            <ul class="list-disc ml-4 mt-2">
+              <li>Experimented, designed and implemented server side rendering framework with partial hydration capability leveraging Vue.</li>
+              <li>Introduced responsive and mobile first design, and led team to built and released new web store experience.</li>
+            </ul>
+          </div>
+          <!-- Alexa -->
+          <div>
+            <div class="text-sm">
+              SDE at Alexa, Amazon
+            </div>
+            <span class=" text-slate-500">Sept 2017 - Oct 2019</span>
+            <ul class="list-disc ml-4 mt-2">
+              <li>Built <a target="_blank" class="underline" href="https://www.amazon.com/Amazon-Cleo/dp/B01N5QDE0Y">Alexa Skill Cleo</a> to gamify the crowd data collection experience.</li>
+              <li>Designed, implemented and released internal facing CMS for Alexa Skill Cleo.</li>
+              <li>Rebuilt the CI/CD infrastructure for Alexa Skill Cleo.</li>
+              <li>Built config driven data aggregation service for ML data labeling internal tool leveraging GraphQL.</li>
+              <li>Built internal facing ML data annotation tool.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
