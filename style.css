@@ -13,29 +13,6 @@
 .left-column {
   background-color: var(--left-column-bg-color);
 }
-/* 
-.pagedjs_margin-top-left-corner-holder {
-  background-color: var(--left-column-bg-color);
-}
-
-.pagedjs_margin-bottom-left-corner-holder {
-  background-color: var(--left-column-bg-color);
-}
-
-.pagedjs_margin-left {
-  background-color: var(--left-column-bg-color);
-}
-
-.pagedjs_margin.pagedjs_margin-top-left {
-  background-color: var(--left-column-bg-color);
-  visibility: visible !important;
-}
-
-.pagedjs_margin.pagedjs_margin-bottom-left {
-  background-color: var(--left-column-bg-color);
-  visibility: visible !important;
-}
-*/
 
 .pagedjs_page_content>div {
   display: flex;
